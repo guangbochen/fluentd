@@ -1,33 +1,34 @@
 source 'https://rubygems.org'
+gem 'cool.io'
+gem 'oj'
+gem 'json'
 
-gem 'fluentd', '~>1.3.1'
-gem 'activesupport', '~>5.2.2'
-gem 'oj', '~>3.7.4'
+gem 'fluentd'
 
 # Input / Output plugins:
-gem 'fluent-plugin-elasticsearch', '~>2.12.3'
-gem 'fluent-plugin-splunk-enterprise', '~> 0.9.1'
-gem 'fluent-plugin-kafka', '~> 0.8.1'
-gem 'fluent-plugin-kinesis', '~> 2.1.1'
-gem 'fluent-plugin-s3', '~> 1.1.7'
-gem 'fluent-plugin-systemd', '~>1.0.1'
+gem 'fluent-plugin-elasticsearch'
+gem 'fluent-plugin-splunk-enterprise'
+gem 'fluent-plugin-kafka'
+gem 'fluent-plugin-kinesis'
+gem 'fluent-plugin-s3'
+gem 'fluent-plugin-systemd'
 
-gem 'fluent-plugin-secure-forward', '~> 0.4.5'
-gem 'fluent-plugin-kubernetes_metadata_filter', '~>2.0.0'
-gem 'fluent-plugin-remote_syslog', '~> 1.0.0'
-gem 'fluent-plugin-record-reformer', '~> 0.9.1'
-gem 'fluent-plugin-prometheus', '~>1.2.1'
-gem 'fluent-plugin-detect-exceptions', '~>0.0.11'
+gem 'fluent-plugin-secure-forward'
+gem 'fluent-plugin-kubernetes_metadata_filter'
+gem 'fluent-plugin-remote_syslog'
+gem 'fluent-plugin-record-reformer'
+gem 'fluent-plugin-prometheus'
+gem 'fluent-plugin-detect-exceptions'
 
 # filter plugins
-gem 'fluent-plugin-rewrite-tag-filter', '~> 2.1.1'
-gem 'fluent-plugin-record-modifier', '~> 1.1.0'
-gem 'fluent-plugin-concat', '~> 2.3.0'
-gem 'fluent-plugin-fields-parser', '~> 0.1.2'
+gem 'fluent-plugin-rewrite-tag-filter'
+gem 'fluent-plugin-record-modifier'
+gem 'fluent-plugin-concat'
+gem 'fluent-plugin-fields-parser'
 
 # parser plugins
-gem 'fluent-plugin-grok-parser', '~>2.4.0'
-gem 'fluent-plugin-multi-format-parser', '~>1.0.0'
+gem 'fluent-plugin-grok-parser'
+gem 'fluent-plugin-multi-format-parser'
 
 # formatter plugins
-gem 'fluent-plugin-formatter_sprintf', '~>0.1.0'
+gem 'fluent-plugin-formatter_sprintf'
