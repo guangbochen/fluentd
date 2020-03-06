@@ -1,7 +1,9 @@
 fluentd
 ========
 
-Customized fluentd images, install elasticsearch, splunk, kafka, syslog plugin
+Customized fluentd images, install elasticsearch, splunk, kafka, syslog, gelf plugin
+
+gelf added by tks@g.globo
 
 ## Building
 
