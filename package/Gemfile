@@ -4,6 +4,7 @@ gem 'oj'
 gem 'json'
 
 gem 'fluentd'
+gem 'gelf'
 
 # Input / Output plugins:
 gem 'fluent-plugin-elasticsearch'
@@ -12,6 +13,7 @@ gem 'fluent-plugin-kafka'
 gem 'fluent-plugin-kinesis'
 gem 'fluent-plugin-s3'
 gem 'fluent-plugin-systemd'
+gem 'fluent-plugin-gelf-hs'
 
 gem 'fluent-plugin-secure-forward'
 gem 'fluent-plugin-kubernetes_metadata_filter'
